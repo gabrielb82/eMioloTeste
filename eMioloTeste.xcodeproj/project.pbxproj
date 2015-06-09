@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85D0A411B20EE8000AC62E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A401B20EE8000AC62E9 /* AppDelegate.swift */; };
+		C85D0A441B20EE8100AC62E9 /* eMioloTeste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A421B20EE8100AC62E9 /* eMioloTeste.xcdatamodeld */; };
+		C85D0A461B20EE8100AC62E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A451B20EE8100AC62E9 /* ViewController.swift */; };
+		C85D0A491B20EE8100AC62E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85D0A471B20EE8100AC62E9 /* Main.storyboard */; };
+		C85D0A4B1B20EE8100AC62E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85D0A4A1B20EE8100AC62E9 /* Images.xcassets */; };
+		C85D0A4E1B20EE8100AC62E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85D0A4C1B20EE8100AC62E9 /* LaunchScreen.xib */; };
+		C85D0A5A1B20EE8200AC62E9 /* eMioloTesteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A591B20EE8200AC62E9 /* eMioloTesteTests.swift */; };
+		C85D0A651B20F4A900AC62E9 /* BlurViewEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A641B20F4A900AC62E9 /* BlurViewEffect.swift */; };
+		C85D0A671B20F61200AC62E9 /* runJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A661B20F61200AC62E9 /* runJSON.swift */; };
+		C85D0A691B20F75100AC62E9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A681B20F75100AC62E9 /* ActivityIndicator.swift */; };
+		C85D0A6B1B20FD4200AC62E9 /* sendJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A6A1B20FD4200AC62E9 /* sendJSON.swift */; };
+		C85D0A6D1B213F4500AC62E9 /* MeusDadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A6C1B213F4500AC62E9 /* MeusDadosViewController.swift */; };
+		C85D0A751B2146A100AC62E9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A741B2146A100AC62E9 /* SWRevealViewController.m */; };
+		C85D0A771B21488900AC62E9 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A761B21488900AC62E9 /* MenuController.swift */; };
+		C85D0A791B214C2600AC62E9 /* ListaUsuariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A781B214C2600AC62E9 /* ListaUsuariosController.swift */; };
+		C85D0A7C1B21520A00AC62E9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D0A7B1B21520A00AC62E9 /* Usuario.swift */; };
+		C868B15F1B239C3000F4C47F /* NovoUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868B15E1B239C3000F4C47F /* NovoUsuarioController.swift */; };
+		C868B1611B23ECC600F4C47F /* ListaUsuariosCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868B1601B23ECC300F4C47F /* ListaUsuariosCellController.swift */; };
+		C868B1631B253D9600F4C47F /* EditarUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868B1621B253D9500F4C47F /* EditarUsuarioViewController.swift */; };
+		C8E795861B2640F500D01779 /* getLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795851B2640F400D01779 /* getLocation.swift */; };
+		C8E795881B26413F00D01779 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E795871B26413F00D01779 /* CoreLocation.framework */; };
+		C8E7958A1B26422A00D01779 /* BuscaImagensSataliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795891B26422A00D01779 /* BuscaImagensSataliteViewController.swift */; };
+		C8E7958D1B2648DF00D01779 /* VisualizaFotoSateliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7958C1B2648DE00D01779 /* VisualizaFotoSateliteViewController.swift */; };
+		C8E7958F1B264A9500D01779 /* FotoSatelite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7958E1B264A9500D01779 /* FotoSatelite.swift */; };
+		C8E795911B266CED00D01779 /* NasaPassouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795901B266CEC00D01779 /* NasaPassouTableViewController.swift */; };
+		C8E795931B266E4500D01779 /* NASAPassou.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795921B266E4500D01779 /* NASAPassou.swift */; };
+		C8E795951B267BEF00D01779 /* FotoAstronomicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795941B267BEF00D01779 /* FotoAstronomicaViewController.swift */; };
+		C8E795971B267C7900D01779 /* FotoAstronomica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E795961B267C7900D01779 /* FotoAstronomica.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C85D0A541B20EE8200AC62E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85D0A331B20EE7E00AC62E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85D0A3A1B20EE7F00AC62E9;
+			remoteInfo = eMioloTeste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C85D0A3B1B20EE7F00AC62E9 /* eMioloTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMioloTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85D0A3F1B20EE8000AC62E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85D0A401B20EE8000AC62E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C85D0A431B20EE8100AC62E9 /* eMioloTeste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eMioloTeste.xcdatamodel; sourceTree = "<group>"; };
+		C85D0A451B20EE8100AC62E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C85D0A481B20EE8100AC62E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C85D0A4A1B20EE8100AC62E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C85D0A4D1B20EE8100AC62E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C85D0A531B20EE8200AC62E9 /* eMioloTesteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eMioloTesteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85D0A581B20EE8200AC62E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85D0A591B20EE8200AC62E9 /* eMioloTesteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMioloTesteTests.swift; sourceTree = "<group>"; };
+		C85D0A641B20F4A900AC62E9 /* BlurViewEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurViewEffect.swift; sourceTree = "<group>"; };
+		C85D0A661B20F61200AC62E9 /* runJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runJSON.swift; sourceTree = "<group>"; };
+		C85D0A681B20F75100AC62E9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		C85D0A6A1B20FD4200AC62E9 /* sendJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sendJSON.swift; sourceTree = "<group>"; };
+		C85D0A6C1B213F4500AC62E9 /* MeusDadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeusDadosViewController.swift; sourceTree = "<group>"; };
+		C85D0A721B21469D00AC62E9 /* eMioloTeste-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eMioloTeste-Bridging-Header.h"; sourceTree = "<group>"; };
+		C85D0A731B2146A100AC62E9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C85D0A741B2146A100AC62E9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C85D0A761B21488900AC62E9 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		C85D0A781B214C2600AC62E9 /* ListaUsuariosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaUsuariosController.swift; sourceTree = "<group>"; };
+		C85D0A7B1B21520A00AC62E9 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		C868B15E1B239C3000F4C47F /* NovoUsuarioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoUsuarioController.swift; sourceTree = "<group>"; };
+		C868B1601B23ECC300F4C47F /* ListaUsuariosCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaUsuariosCellController.swift; sourceTree = "<group>"; };
+		C868B1621B253D9500F4C47F /* EditarUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarUsuarioViewController.swift; sourceTree = "<group>"; };
+		C8E795851B2640F400D01779 /* getLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getLocation.swift; sourceTree = "<group>"; };
+		C8E795871B26413F00D01779 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C8E795891B26422A00D01779 /* BuscaImagensSataliteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuscaImagensSataliteViewController.swift; sourceTree = "<group>"; };
+		C8E7958C1B2648DE00D01779 /* VisualizaFotoSateliteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizaFotoSateliteViewController.swift; sourceTree = "<group>"; };
+		C8E7958E1B264A9500D01779 /* FotoSatelite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoSatelite.swift; sourceTree = "<group>"; };
+		C8E795901B266CEC00D01779 /* NasaPassouTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaPassouTableViewController.swift; sourceTree = "<group>"; };
+		C8E795921B266E4500D01779 /* NASAPassou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAPassou.swift; sourceTree = "<group>"; };
+		C8E795941B267BEF00D01779 /* FotoAstronomicaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoAstronomicaViewController.swift; sourceTree = "<group>"; };
+		C8E795961B267C7900D01779 /* FotoAstronomica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoAstronomica.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85D0A381B20EE7F00AC62E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E795881B26413F00D01779 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85D0A501B20EE8200AC62E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85D0A321B20EE7E00AC62E9 = {
+			isa = PBXGroup;
+			children = (
+				C8E795871B26413F00D01779 /* CoreLocation.framework */,
+				C85D0A3D1B20EE7F00AC62E9 /* eMioloTeste */,
+				C85D0A561B20EE8200AC62E9 /* eMioloTesteTests */,
+				C85D0A3C1B20EE7F00AC62E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85D0A3C1B20EE7F00AC62E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A3B1B20EE7F00AC62E9 /* eMioloTeste.app */,
+				C85D0A531B20EE8200AC62E9 /* eMioloTesteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85D0A3D1B20EE7F00AC62E9 /* eMioloTeste */ = {
+			isa = PBXGroup;
+			children = (
+				C8E7958B1B2648B600D01779 /* API */,
+				C85D0A7A1B2151D300AC62E9 /* Classes */,
+				C85D0A711B21467E00AC62E9 /* Reveal */,
+				C85D0A631B20F46D00AC62E9 /* Functions */,
+				C85D0A401B20EE8000AC62E9 /* AppDelegate.swift */,
+				C85D0A451B20EE8100AC62E9 /* ViewController.swift */,
+				C85D0A471B20EE8100AC62E9 /* Main.storyboard */,
+				C868B1621B253D9500F4C47F /* EditarUsuarioViewController.swift */,
+				C85D0A4A1B20EE8100AC62E9 /* Images.xcassets */,
+				C85D0A4C1B20EE8100AC62E9 /* LaunchScreen.xib */,
+				C85D0A421B20EE8100AC62E9 /* eMioloTeste.xcdatamodeld */,
+				C85D0A3E1B20EE8000AC62E9 /* Supporting Files */,
+				C85D0A6C1B213F4500AC62E9 /* MeusDadosViewController.swift */,
+				C85D0A761B21488900AC62E9 /* MenuController.swift */,
+				C85D0A781B214C2600AC62E9 /* ListaUsuariosController.swift */,
+				C868B15E1B239C3000F4C47F /* NovoUsuarioController.swift */,
+				C868B1601B23ECC300F4C47F /* ListaUsuariosCellController.swift */,
+			);
+			path = eMioloTeste;
+			sourceTree = "<group>";
+		};
+		C85D0A3E1B20EE8000AC62E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A3F1B20EE8000AC62E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C85D0A561B20EE8200AC62E9 /* eMioloTesteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A591B20EE8200AC62E9 /* eMioloTesteTests.swift */,
+				C85D0A571B20EE8200AC62E9 /* Supporting Files */,
+			);
+			path = eMioloTesteTests;
+			sourceTree = "<group>";
+		};
+		C85D0A571B20EE8200AC62E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A581B20EE8200AC62E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C85D0A631B20F46D00AC62E9 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A641B20F4A900AC62E9 /* BlurViewEffect.swift */,
+				C85D0A661B20F61200AC62E9 /* runJSON.swift */,
+				C85D0A681B20F75100AC62E9 /* ActivityIndicator.swift */,
+				C85D0A6A1B20FD4200AC62E9 /* sendJSON.swift */,
+				C8E795851B2640F400D01779 /* getLocation.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		C85D0A711B21467E00AC62E9 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A731B2146A100AC62E9 /* SWRevealViewController.h */,
+				C85D0A741B2146A100AC62E9 /* SWRevealViewController.m */,
+				C85D0A721B21469D00AC62E9 /* eMioloTeste-Bridging-Header.h */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		C85D0A7A1B2151D300AC62E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C85D0A7B1B21520A00AC62E9 /* Usuario.swift */,
+				C8E7958E1B264A9500D01779 /* FotoSatelite.swift */,
+				C8E795921B266E4500D01779 /* NASAPassou.swift */,
+				C8E795961B267C7900D01779 /* FotoAstronomica.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C8E7958B1B2648B600D01779 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C8E795891B26422A00D01779 /* BuscaImagensSataliteViewController.swift */,
+				C8E7958C1B2648DE00D01779 /* VisualizaFotoSateliteViewController.swift */,
+				C8E795901B266CEC00D01779 /* NasaPassouTableViewController.swift */,
+				C8E795941B267BEF00D01779 /* FotoAstronomicaViewController.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C85D0A3A1B20EE7F00AC62E9 /* eMioloTeste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85D0A5D1B20EE8200AC62E9 /* Build configuration list for PBXNativeTarget "eMioloTeste" */;
+			buildPhases = (
+				C85D0A371B20EE7F00AC62E9 /* Sources */,
+				C85D0A381B20EE7F00AC62E9 /* Frameworks */,
+				C85D0A391B20EE7F00AC62E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eMioloTeste;
+			productName = eMioloTeste;
+			productReference = C85D0A3B1B20EE7F00AC62E9 /* eMioloTeste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C85D0A521B20EE8200AC62E9 /* eMioloTesteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85D0A601B20EE8200AC62E9 /* Build configuration list for PBXNativeTarget "eMioloTesteTests" */;
+			buildPhases = (
+				C85D0A4F1B20EE8200AC62E9 /* Sources */,
+				C85D0A501B20EE8200AC62E9 /* Frameworks */,
+				C85D0A511B20EE8200AC62E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85D0A551B20EE8200AC62E9 /* PBXTargetDependency */,
+			);
+			name = eMioloTesteTests;
+			productName = eMioloTesteTests;
+			productReference = C85D0A531B20EE8200AC62E9 /* eMioloTesteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85D0A331B20EE7E00AC62E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DGSmart;
+				TargetAttributes = {
+					C85D0A3A1B20EE7F00AC62E9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C85D0A521B20EE8200AC62E9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C85D0A3A1B20EE7F00AC62E9;
+					};
+				};
+			};
+			buildConfigurationList = C85D0A361B20EE7E00AC62E9 /* Build configuration list for PBXProject "eMioloTeste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85D0A321B20EE7E00AC62E9;
+			productRefGroup = C85D0A3C1B20EE7F00AC62E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C85D0A3A1B20EE7F00AC62E9 /* eMioloTeste */,
+				C85D0A521B20EE8200AC62E9 /* eMioloTesteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C85D0A391B20EE7F00AC62E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85D0A491B20EE8100AC62E9 /* Main.storyboard in Resources */,
+				C85D0A4E1B20EE8100AC62E9 /* LaunchScreen.xib in Resources */,
+				C85D0A4B1B20EE8100AC62E9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85D0A511B20EE8200AC62E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C85D0A371B20EE7F00AC62E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85D0A771B21488900AC62E9 /* MenuController.swift in Sources */,
+				C85D0A651B20F4A900AC62E9 /* BlurViewEffect.swift in Sources */,
+				C85D0A461B20EE8100AC62E9 /* ViewController.swift in Sources */,
+				C8E795911B266CED00D01779 /* NasaPassouTableViewController.swift in Sources */,
+				C8E7958D1B2648DF00D01779 /* VisualizaFotoSateliteViewController.swift in Sources */,
+				C85D0A6B1B20FD4200AC62E9 /* sendJSON.swift in Sources */,
+				C85D0A441B20EE8100AC62E9 /* eMioloTeste.xcdatamodeld in Sources */,
+				C8E795861B2640F500D01779 /* getLocation.swift in Sources */,
+				C868B15F1B239C3000F4C47F /* NovoUsuarioController.swift in Sources */,
+				C85D0A6D1B213F4500AC62E9 /* MeusDadosViewController.swift in Sources */,
+				C868B1631B253D9600F4C47F /* EditarUsuarioViewController.swift in Sources */,
+				C85D0A791B214C2600AC62E9 /* ListaUsuariosController.swift in Sources */,
+				C85D0A751B2146A100AC62E9 /* SWRevealViewController.m in Sources */,
+				C8E795951B267BEF00D01779 /* FotoAstronomicaViewController.swift in Sources */,
+				C85D0A7C1B21520A00AC62E9 /* Usuario.swift in Sources */,
+				C8E795971B267C7900D01779 /* FotoAstronomica.swift in Sources */,
+				C868B1611B23ECC600F4C47F /* ListaUsuariosCellController.swift in Sources */,
+				C85D0A671B20F61200AC62E9 /* runJSON.swift in Sources */,
+				C8E7958F1B264A9500D01779 /* FotoSatelite.swift in Sources */,
+				C85D0A691B20F75100AC62E9 /* ActivityIndicator.swift in Sources */,
+				C85D0A411B20EE8000AC62E9 /* AppDelegate.swift in Sources */,
+				C8E7958A1B26422A00D01779 /* BuscaImagensSataliteViewController.swift in Sources */,
+				C8E795931B266E4500D01779 /* NASAPassou.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85D0A4F1B20EE8200AC62E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85D0A5A1B20EE8200AC62E9 /* eMioloTesteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C85D0A551B20EE8200AC62E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85D0A3A1B20EE7F00AC62E9 /* eMioloTeste */;
+			targetProxy = C85D0A541B20EE8200AC62E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C85D0A471B20EE8100AC62E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85D0A481B20EE8100AC62E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C85D0A4C1B20EE8100AC62E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85D0A4D1B20EE8100AC62E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C85D0A5B1B20EE8200AC62E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C85D0A5C1B20EE8200AC62E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C85D0A5E1B20EE8200AC62E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = eMioloTeste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eMioloTeste/eMioloTeste-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C85D0A5F1B20EE8200AC62E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = eMioloTeste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eMioloTeste/eMioloTeste-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C85D0A611B20EE8200AC62E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eMioloTesteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eMioloTeste.app/eMioloTeste";
+			};
+			name = Debug;
+		};
+		C85D0A621B20EE8200AC62E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eMioloTesteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eMioloTeste.app/eMioloTeste";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C85D0A361B20EE7E00AC62E9 /* Build configuration list for PBXProject "eMioloTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85D0A5B1B20EE8200AC62E9 /* Debug */,
+				C85D0A5C1B20EE8200AC62E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85D0A5D1B20EE8200AC62E9 /* Build configuration list for PBXNativeTarget "eMioloTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85D0A5E1B20EE8200AC62E9 /* Debug */,
+				C85D0A5F1B20EE8200AC62E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85D0A601B20EE8200AC62E9 /* Build configuration list for PBXNativeTarget "eMioloTesteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85D0A611B20EE8200AC62E9 /* Debug */,
+				C85D0A621B20EE8200AC62E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C85D0A421B20EE8100AC62E9 /* eMioloTeste.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C85D0A431B20EE8100AC62E9 /* eMioloTeste.xcdatamodel */,
+			);
+			currentVersion = C85D0A431B20EE8100AC62E9 /* eMioloTeste.xcdatamodel */;
+			path = eMioloTeste.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C85D0A331B20EE7E00AC62E9 /* Project object */;
+}
