@@ -27,6 +27,16 @@ class ViewController: UIViewController, UITextFieldDelegate, SendJSONDelegate, N
         email!.delegate = self
         senha!.delegate = self
         
+        var localNotification:UILocalNotification = UILocalNotification()
+        
+        localNotification.alertAction = "eMiolo"
+        
+        localNotification.alertBody = "Confira a imagem astronômica do dia"
+        
+        localNotification.fireDate = NSDate(timeIntervalSinceNow: 30)
+        
+        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
+        
         
         var tapscreen : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action:"dismissKeyboard:")
         
