@@ -5,22 +5,32 @@ Projeto de criação de aplicativo de teste para vaga de programador na eMiolo.
 A Aplicação contém as seguintes funcionalidades:
 
 Login (Usuário e senha)
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolologin.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolologin.png" width=210 height=373>
+
 Cadastro de novo usuário
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolonovousuario.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolonovousuario.png" width=210 height=373>
+
 Atualização de dados do usuário (com senha para login e foto)
 
 Menu contendo as seguintes opções:
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolomenu.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolomenu.png" width=210 height=373>
+
 - Exibir dados do usuário logado
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolomeusdados.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolomeusdados.png" width=210 height=373>
 - Exibir listagem de usuários cadastrados
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiololistausuarios.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiololistausuarios.png" width=210 height=373>
+
 
 Utilizar pelo menos 3 funções da API https://data.nasa.gov/developer (Utilizadas informações de satélites e astronômicas)
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiologobuscafotoapi.png)
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolonasapassouapi.png)
-![alt tag](http://www.cappriola.net/site/emiolo/screenshots/emiolofotoastronomicaapi.png)
+
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiologobuscafotoapi.png" width=210 height=373>
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolonasapassouapi.png" width=210 height=373>
+<img src="http://www.cappriola.net/site/emiolo/screenshots/emiolofotoastronomicaapi.png" width=210 height=373>
 
 Criar navegação até chegar ao fim do fluxo das chamadas da API
 
